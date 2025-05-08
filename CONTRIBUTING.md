@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/rehan-petstore-typescript.git
+$ npm install git+ssh://git@github.com:rehanalam/stainless-petstore-prod.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/rehan-petstore-typescript
-$ cd rehan-petstore-typescript
+$ git clone https://www.github.com/rehanalam/stainless-petstore-prod
+$ cd stainless-petstore-prod
 
 # With yarn
 $ yarn link
