@@ -147,7 +147,7 @@ export interface Pet {
   /**
    * pet status in the store
    */
-  status?: 'available' | 'pending' | 'sold' | 'return';
+  status?: 'available' | 'pending' | 'sold' | 'return' | 'hold';
 
   tags?: Array<Pet.Tag>;
 }
@@ -190,7 +190,7 @@ export interface PetCreateParams {
   /**
    * pet status in the store
    */
-  status?: 'available' | 'pending' | 'sold' | 'return';
+  status?: 'available' | 'pending' | 'sold' | 'return' | 'hold';
 
   tags?: Array<PetCreateParams.Tag>;
 }
@@ -221,7 +221,7 @@ export interface PetUpdateParams {
   /**
    * pet status in the store
    */
-  status?: 'available' | 'pending' | 'sold' | 'return';
+  status?: 'available' | 'pending' | 'sold' | 'return' | 'hold';
 
   tags?: Array<PetUpdateParams.Tag>;
 }
