@@ -1,6 +1,6 @@
 {
   "name": "rehan-petstore",
-  "version": "0.0.1-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "The official TypeScript library for the Rehan Petstore API",
   "author": "Rehan Petstore <apiteam@swagger.io>",
   "types": "dist/index.d.ts",
